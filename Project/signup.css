@@ -1,0 +1,63 @@
+*{
+	margin: 5;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+
+.header{
+	padding: 60px;
+	background-color: #cc66ff;
+}
+
+.main{
+	justify-content: center;
+	background-color: white;	
+	display: flex;
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+}
+
+.right-box button{
+	background-color: #cc66ff;
+	color: white; 
+	align-content: center;
+	border-color: white;
+	border-radius: 8px ;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.right-box p{
+	text-align: center;
+}
+
+.signup-box{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width:90% ;
+	max-width: 800px;
+}
+
+.right-box,
+.left-box
+{
+	padding: 50px;
+	flex-basis: 50%;
+	flex-grow: 1;
+}
+
+.input-box{
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid dimgrey;
+	background: transparent;
+}

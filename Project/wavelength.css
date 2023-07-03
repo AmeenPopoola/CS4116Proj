@@ -1,0 +1,36 @@
+h1{
+	color: #ba55d3;
+}
+
+p{
+	color: white;
+}
+
+article{
+	float: left;
+	width: 25%;
+	padding-left: 30px;
+}
+
+#the_heading{
+	padding-left: 30px;
+	width: 30%;
+	text-align: center;
+}
+
+body{
+	background-image: url("images/homeimage.png");
+	background-size: 100%, 100%;
+	background-repeat: no-repeat, repeat;
+}
+
+#login{
+	background-color: white;
+	border-radius: 15px;
+}
+
+#signup{
+	color: white;
+	background-color: #ba55d3;
+	border-radius: 15px;
+}
